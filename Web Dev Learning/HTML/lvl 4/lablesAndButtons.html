@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Type</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+            <p> Here when we are putting input type = radio that is when a circle taking like MCQ answers or taking options appear in the screen there we can choose one between those who have same name for those options in the code itself.
+                <br><br>
+            Here we have all the input named "option" that's why can only select any ONE between those inputs whose name is "option". But if we put all the inputs different names in the code it will allow me to give multiple options at a time like the questions which has 2 or more answers.
+            </p>
+            <p>This question have only one answer which is 4 that's why I made this code like this to make you select only one option.</p>
+            <p>Tell me what is 2+2?</p>
+        <form action="hello.c">
+            <label for = "A">
+                <input type="radio" value="3" name="option" id="A">3 
+            </label>
+            <label for = "B">
+                <input type="radio" value="2" name="option" id="B">2 
+            </label>
+            <label for = "C">
+                <input type="radio" value="4" name="option" id="C">4 
+            </label>
+            <label for = "D">
+                <input type="radio" value="1" name="option" id="D">1 
+            </label>
+        </form>
+        <p>But when you see this question you can see this question you can notice you can select multiple options at the same time.</p>
+        <form action="hello.c">
+            <p>If x^2 = 4 what is x?</p>
+            <label for = "A1">
+                <input type="radio" value="3" name="option1" id="A1">3 
+            </label>
+            <label for = "B1">
+                <input type="radio" value="2" name="option2" id="B1">2 
+            </label>
+            <label for = "C1">
+                <input type="radio" value="4" name="option3" id="C1">4 
+            </label>
+            <label for = "D1">
+                <input type="radio" value="-2" name="option4" id="D1">-2
+            </label>
+
+            <!-- label tag is just helping me to click the option like if I click on the text the option will automatically get selected. another advantage is that if two or more input have same id the will get selected at once. -->
+        </form>
+    </main>
+</body>
+</html>

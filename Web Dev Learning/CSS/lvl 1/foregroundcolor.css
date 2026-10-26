@@ -1,0 +1,15 @@
+p {
+    color: grey;
+}
+h1 
+    {
+        color:brown;
+    }
+button {
+    color:blue;
+    background-color:green;
+}
+body {
+    background-color: black;
+}
+/* this is used for making color change for any tag */

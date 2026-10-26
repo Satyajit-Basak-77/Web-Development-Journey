@@ -1,0 +1,6 @@
+Creae a simple div with a n id "box". add some text content inside it and set the background color blue.
+Create 3 headings h1, h2, h3 and give the all a class "heading" & set color of "heading" to red.
+Create a button & set it's background color to:
+    green using css stylesheet
+    blue using <style>
+    pink using inline style

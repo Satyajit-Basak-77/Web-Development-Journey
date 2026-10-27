@@ -1,0 +1,9 @@
+p {
+    text-align: center;
+}
+
+h1, h2 { /* multiple selector */
+    text-align: right;
+}
+
+/* For the languages which was written from left to right if we do text-align: start it will automatically go to left vice versa for languages like Urdu */

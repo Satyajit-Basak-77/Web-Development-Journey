@@ -1,0 +1,13 @@
+#one {
+    font-size: 20px;
+}
+
+#two {
+    font-size: 10px;
+}
+
+#three {
+    font-size: larger;
+}
+
+/* we can use font size in px units along with many more like cm, inch etc (mostly px is used) also we can use some presets like large, larger, smaller, small, x-small*/

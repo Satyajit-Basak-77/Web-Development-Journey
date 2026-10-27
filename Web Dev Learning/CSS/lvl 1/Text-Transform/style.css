@@ -1,0 +1,19 @@
+#one {
+    text-transform: capitalize ;
+}
+/* Initials will be always capital */
+#two {
+    text-transform:lowercase ;
+}
+/* All letters are lowercased */
+#three {
+    text-transform: none ;
+}
+/* default text */
+#four {
+    text-transform: uppercase;
+}
+/* all letters are in capital */
+#five {
+    text-transform: initial lowercase;
+}

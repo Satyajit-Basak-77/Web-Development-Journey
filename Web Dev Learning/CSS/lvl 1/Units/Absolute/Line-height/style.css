@@ -1,0 +1,10 @@
+#one {
+    line-height: 40px;
+}
+/* spacing between each line is line height */
+#two {
+    line-height: normal; /* Normal is default line height*/
+}
+#three {
+    line-height: 5px;
+}

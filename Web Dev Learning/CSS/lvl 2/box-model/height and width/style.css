@@ -1,0 +1,15 @@
+#div1 {
+    color: white;
+    background-color: black;
+    height: auto;
+    width: auto;
+}
+/* By default width is the whole screen's width and height is only line's height */
+#div2 {
+    color: white;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+} 
+/* I can make as long height and width as I want and text will automatically adjust according to that */

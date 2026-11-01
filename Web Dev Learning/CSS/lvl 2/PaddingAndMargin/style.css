@@ -1,0 +1,31 @@
+div {
+    text-align: left;
+    height: 200px;
+    width: 200px;
+    background-color:cornsilk;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+
+    /* Padding is a thing which gives us space between content space and border */
+    padding-left: 10%;
+
+    /* Margin is a thing which gives us space outside border */
+    margin-top: 30px;
+}
+
+p {
+    border: 5px solid brown;
+    padding: 20px;
+    margin: 20px;
+}
+
+#P101 {
+    border: 2px dashed black;
+    padding: 5px 10px 15px 20px;
+    /*       top right bottom left   */            
+    margin: 5px 10px 15px 20px;
+    /*      top right bottom left   */            
+}
+/* Padding is the space between content and border */
+/* Margin is the space between border and screen border */

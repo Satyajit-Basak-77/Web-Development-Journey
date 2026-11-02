@@ -1,0 +1,25 @@
+div {
+    display: inline-block;
+}
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 0.5);
+    text-align: center;
+    /* This is rgba format where the 'a' means opacity of the colour */
+}
+
+#div2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 0.75);
+    text-align: center;
+}
+
+
+#div3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 1);
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#navbar {
+    background-color: #0f1111;
+    height: 60px;
+}
+
+#ama {
+    font-size: 25px;
+    color: orange;
+    padding: 10px;
+}
+
+#acc { 
+    color: white;
+    margin-left: 200px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#maycart {
+    color: white;
+    margin-left: 200px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#contact {
+    color: white;
+    margin-left: 200px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#searchbar {
+    margin-left: 50px;
+}
+
+#submit {
+    color: white;
+    background-color: #f08804;
+}
+
+#content {
+    height: 600px;
+}
+.condiv {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 3px dashed black;
+}

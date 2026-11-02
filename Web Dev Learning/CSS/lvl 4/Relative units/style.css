@@ -1,0 +1,49 @@
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%; /*  = 30px */
+    background-color: yellow;
+    margin-left: 10%; /* = 10px */
+}
+
+/* % unit works on the parent's elements absolute units like box1 is parent and box 2 is chile so 30% width is the parent's 30% (30% of 100px width is 30px) if we change parent's absolute unit's values then the childs unit's values will also be changed. */
+
+#boxx1 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    font-size: 10px;
+}
+
+#boxx2 {
+    height: 50px;
+    width: 30%;
+    background-color: green;
+    font-size: 2em; 
+    /* 2em means 2 times of parent's element's font size */
+
+    /*
+    em is also related to parent's absolute units (not always). like if box 1 has font size of 10px and box 2 has 2em then box 2's font size will be 20px
+    
+    but properties like width and also many more it will depend on fon't size of itself.
+    */
+}
+
+#box4 {
+    height: 200px;
+    width: 5rem;
+    /* rem unit is relative to the font size of the root element */
+}
+
+#box6 {
+    height: 50vh;
+    width: 50vw;
+    color: white;
+    background-color: black;
+    /* vh (viewport height) and vw (viewport width) is a unit which relates to the %tage of the height and width of the browser or user's screen */
+}

@@ -1,0 +1,41 @@
+#div1 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-image: url(tanjiro.jpg);
+    background-size: cover;
+}
+/* cover tag makes the image to that size where it can fit to matching height but photos height and width ratio will not change */
+
+#div2 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-image: url(tanjiro.jpg);
+    background-size: contain;
+}
+/* contain tag makes the image to that size where it can fit to matching height and width but photos height and width ratio will not change and if any empty space left it will start repeating the image to till the whole area is covered */
+#div3 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-image: url(tanjiro.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* background-repeat will prevent the repeating */
+
+#div4 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-image: url(tanjiro.jpg);
+    background-size: auto;
+}
+
+body {
+    background-image: url(tanjiro.jpg);
+    background-size: cover;
+}
+/* Image's height and width will not change it will just visible to the particular part where the image is selected */

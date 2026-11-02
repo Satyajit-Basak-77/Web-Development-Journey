@@ -1,0 +1,32 @@
+#board {
+    background-color: black;
+    height: 190px;
+    width: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#red {
+    text-align: center;
+    background-color: red;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#orange {
+    text-align: center;
+    background-color: orange;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#green {
+    text-align: center;
+    background-color: green;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}

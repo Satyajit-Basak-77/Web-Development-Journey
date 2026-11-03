@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+/* Properties for inside elements */
+/* flex-direction: row; */
+/* flex-direction: row-reverse; */
+/* flex-direction: column; */
+/* flex-direction: column-reverse; */
+/* 
+It always works with the parent container elements and the effects is put on child elements
+*/
+
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row; /* row wise direction is default in flex*/
+    /* display: flex is needed to make the element eligible for flex properties */
+}
+
+#container1 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row-reverse; /*in reverse starting will also be from the reversed side*/
+    /* display: flex is needed to make the element eligible for flex properties */
+}
+
+#container2 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* in column property element will try to fit in elventy untill it's content allow */
+    /* display: flex is needed to make the element eligible for flex properties */
+}
+
+#container3 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse; /*in reverse starting will also be from the reversed side*/
+    /* display: flex is needed to make the the element eligible for flex properties */
+}
+
+#container4 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start; /*Flex start is default where the element starts from*/
+    /* display: flex is needed to make the the element eligible for flex properties */
+}
+
+#container5 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /*Elements will start from the left side but alltogether it will stick to the right side just like the text align: right*/
+    /* display: flex is needed to make the the element eligible for flex properties */
+}
+
+#container6 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* display: flex is needed to make the the element eligible for flex properties */
+}
+
+#container7 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /*The space in the end is the half of the space in between elements*/
+    /* display: flex is needed to make the the element eligible for flex properties */
+}
+
+#container8 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*The space is evenly spread between the elements but not for the end elements*/
+    /* display: flex is needed to make the the element eligible for flex properties */
+}
+
+#container9 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /*The space is evenly spread between all the elements*/
+    /* display: flex is needed to make the the element eligible for flex properties */
+}
+
+/*
+    All the justify properties will also work in columnwise directions also
+*/
